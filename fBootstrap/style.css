@@ -1,0 +1,81 @@
+body{
+    background: #f7f9fa;
+    overflow-y: scroll;
+}
+.left{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 80px;
+    position: left;
+}
+
+.facebook-left{
+    margin-top: 70px;
+}
+.facebook-left{
+    padding: 0 40px;
+}
+
+.facebook-left p{
+    font-size: 30px;
+    margin: 0 !important;
+}
+.facebook-right{
+    padding: 20px;
+    background: #f7f9fa;
+    border:0;
+}
+/* Footer design */
+.fb-footer {
+    margin: 30px 0;
+    font-family: "Segoe UI";
+    background-color: #fff;
+    text-align: center;
+}
+.fb-footer ul {
+    margin: 0;
+    padding: 0;
+}
+.fb-footer ul  li {
+    list-style: none;
+    display: inline;
+}
+.fb-footer hr {
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+    margin: 10px 0;
+}
+.fb-footer ul li a {
+    text-decoration: none;
+    width: 6%;
+    display: inline;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #365899;
+}
+.fb-footer ul li a:hover {
+    text-decoration: underline;
+}
+.top ul li:last-child a {
+    border: 1px solid #999;
+    width: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    background: #e5e5e5;
+    padding: 2px 6px;
+    line-height: 1;
+    height: 10px;
+}
+.fb-footer ul.active a{
+    color: #333;
+}
+.bottom h4 {
+    font-weight: normal;
+    color: #999;
+    font-size: 14px;
+}
